@@ -23,4 +23,55 @@ ex) 게시판 - 게시판 관련 객체, 회원 관련 객체
 C, C++ : 메모리에 올리면, 프로그래머가 적절하게 메모리에 제거
 객체 -> 힙 -> 제거 프로그래머(메모리 누수, ... 성능 저하)
 
-Java ->
+Java -> 메모리 관리를 자동관리(객체 --> 힙 --> 자동으로 제거)
+        가비지 콜렉터
+
+        Person person1 = new Person();
+        Person person2 = new Person();
+        person2 = person1;
+
+        person2의 기존 인스턴스와 연결 끊김 -> 가비지 컬렉터가 제거
+
+포인터를 사용하지 않는다.
+
+풍부한 기능을 제공하는 오픈 소스다.
+JDK- Java Development Kit
+오픈소스 - 15ver (상업적으로 이용시 라이센스 필요)
+
+자바 이용범위
+웹서버, 앱(안드로이드 앱), ....
+데스크탑 애플리케이션(java.awt,javax.swing)
+
+자바 설치
+https://www.oracle.com/kr/java/technologies/javase-jdk16-downloads.html
+
+자바 in VSC
+https://code.visualstudio.com/docs/java/java-tutorial
+
+환경 변수
+JAVA_HOME - 설치되어 있는 JDK 경로(C:\Program Files\Java\jdk-16.0.2)
+%JAVA_HOME%
+
+CLASS_PATH = %JAVA_HOME%lib;.
+
+에디터 - 이클립스
+
+src : 자바소스(.java)
+bin : 컴파일된 자바 클래스 파일(.class)
+
+java -> 컴파일된 class 파일을 실행하는 명령 프로그램
+java 패키지명.파일명
+
+javac -> 컴파일하여 class 파일을 만드는 명령 프로그램
+
+세미콜론(;) : 문장이 끝나는 지점에 위치
+
+주석
+  - 한줄 주석 //
+  - 여러줄 주석 /* */
+
+  자바소스 -> JVM(.class 컴파일 - 중간 언어) -> 플랫폼에 맞는 바이트 코드로 전환
+
+  JDK - Java Development Kit
+
+  JRE - Java Runtime Environment
