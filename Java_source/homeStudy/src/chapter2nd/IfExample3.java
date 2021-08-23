@@ -1,9 +1,9 @@
-package Chapter4;
+package chapter2nd;
 
-public class Grade {
+public class IfExample3 {
   public static void main(String[] args) {
+    int score = 55;
     char grade;
-    int score = 85;
     if (score >= 90) {
       grade = 'A';
     } else if (score >= 80) {
@@ -15,6 +15,6 @@ public class Grade {
     } else {
       grade = 'F';
     }
-    System.out.println(grade);
+    System.out.println(grade + " 등급 입니다.");
   }
 }
