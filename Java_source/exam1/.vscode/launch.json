@@ -6,16 +6,9 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Launch StudentTest",
-      "request": "launch",
-      "mainClass": "Chapter5.StudentTest",
-      "projectName": "exam1"
-    },
-    {
-      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
-      "mainClass": "${file}"
+      "mainClass": "${file}"      
     },
     {
       "type": "java",
@@ -215,6 +208,13 @@
     },
     {
       "type": "java",
+      "name": "Launch StudentTest",
+      "request": "launch",
+      "mainClass": "Chapter5.StudentTest",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
       "name": "Launch CastEx1",
       "request": "launch",
       "mainClass": "chapter2.CastEx1",
@@ -303,41 +303,6 @@
       "request": "launch",
       "mainClass": "first.second.hello4",
       "projectName": "exam1"
-    },
-    {
-      "type": "java",
-      "name": "Launch App",
-      "request": "launch",
-      "mainClass": "App",
-      "projectName": "homstudy3"
-    },
-    {
-      "type": "java",
-      "name": "Launch Grade",
-      "request": "launch",
-      "mainClass": "Chapter4.Grade",
-      "projectName": "homstudy3"
-    },
-    {
-      "type": "java",
-      "name": "Launch Constant",
-      "request": "launch",
-      "mainClass": "chapter2.Constant",
-      "projectName": "homstudy3"
-    },
-    {
-      "type": "java",
-      "name": "Launch ImplicitConversion",
-      "request": "launch",
-      "mainClass": "chapter2.ImplicitConversion",
-      "projectName": "homstudy3"
-    },
-    {
-      "type": "java",
-      "name": "Launch Typeinference2",
-      "request": "launch",
-      "mainClass": "chapter2.Typeinference2",
-      "projectName": "homstudy3"
     }
   ]
 }
