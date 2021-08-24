@@ -6,6 +6,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch StaticEx1",
+      "request": "launch",
+      "mainClass": "chapter6.StaticEx1",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch TransEx",
+      "request": "launch",
+      "mainClass": "chapter6.TransEx",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch CalendarTest",
+      "request": "launch",
+      "mainClass": "Chapter5.CalendarTest",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch AccessTest",
+      "request": "launch",
+      "mainClass": "access.AccessTest",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch AccessEx1Test",
+      "request": "launch",
+      "mainClass": "Chapter5.AccessEx1Test",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch Subject2Test",
+      "request": "launch",
+      "mainClass": "Chapter5.Subject2Test",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch BookPersonTest",
+      "request": "launch",
+      "mainClass": "Chapter5.BookPersonTest",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch OrderTest",
+      "request": "launch",
+      "mainClass": "Chapter5.OrderTest",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch PersonTest",
+      "request": "launch",
+      "mainClass": "Chapter5.PersonTest",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch Person",
+      "request": "launch",
+      "mainClass": "Chapter5.Person",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
+      "name": "Launch InstanceEx1",
+      "request": "launch",
+      "mainClass": "Chapter5.InstanceEx1",
+      "projectName": "exam1"
+    },
+    {
+      "type": "java",
       "name": "Launch StudentTest",
       "request": "launch",
       "mainClass": "Chapter5.StudentTest",
