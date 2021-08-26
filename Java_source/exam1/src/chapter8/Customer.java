@@ -10,6 +10,7 @@ public class Customer {
   public Customer() {
     customerGrade = "SILVER";
     bonusRatio = 0.01;
+    System.out.println("Customer 생성자");
   }
 
   public int calcPrice(int price) {

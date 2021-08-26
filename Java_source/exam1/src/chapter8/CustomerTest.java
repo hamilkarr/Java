@@ -24,6 +24,7 @@ public class CustomerTest {
     customerPark.setCutomerName("흑우");
     customerPark.setAgentID(1000);
     customerPark.calcPrice(200000);
+    System.out.println("할인 적용 판매가 : " + customerPark.calcPrice(100000));
 
     customerPark.showInfo();
   }
