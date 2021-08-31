@@ -10,11 +10,8 @@ public class Student {
     return studentName;
   }
 
-  public static void main(String[] args) {
-    Student studentAhn = new Student();
-    studentAhn.studentName = "안연수";
-
-    System.out.println(studentAhn.studentName);
-    System.out.println(studentAhn.getStudentName());
+  public void setStudentName(String studentName) {
+    this.studentName = studentName;
   }
+
 }

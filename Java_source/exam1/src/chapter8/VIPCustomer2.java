@@ -5,12 +5,18 @@ public class VIPCustomer2 extends Customer {
   private int agentID; // 전문 상담원 ID
   private double bonusRatio;
 
-  public VIPCustomer2() {
+  /*
+   * public VIPCustomer2() { bonusRatio = 0.05; customerGrade = "BLACKCOW";
+   * discountRatio = 0.1;
+   * 
+   * System.out.println("VIPCustomer2 생성자"); }
+   */
+  public VIPCustomer2(int CustomerID, String CustomerName, int agentID) {
+    super(CustomerID, CustomerName);
+    this.agentID = agentID;
     bonusRatio = 0.05;
-    customerGrade = "BLACKCOW";
+    customerGrade = "VIP";
     discountRatio = 0.1;
-
-    System.out.println("VIPCustomer2 생성자");
   }
 
   public int getAgentID() {
