@@ -1,31 +1,31 @@
 package chapter7.chapter7_1;
 
 public class Book {
-  private String bookName;
-  private String author;
+  private String name;
+  private int price;
 
-  public Book(String bookName, String author) {
-    this.bookName = bookName;
-    this.author = author;
+  public Book(String name, int price) {
+    this.name = name;
+    this.price = price;
   }
 
-  public String getBookName() {
-    return bookName;
+  public String getName() {
+    return name;
   }
 
-  public void setBookName(String bookName) {
-    this.bookName = bookName;
+  public void setName(String name) {
+    this.name = name;
   }
 
-  public String getAuthor() {
-    return author;
+  public int getPrice() {
+    return price;
   }
 
-  public void setAuthor(String author) {
-    this.author = author;
+  public void setPrice(int price) {
+    this.price = price;
   }
 
-  public void showBookInfo() {
-    System.out.println(bookName + "," + author);
+  public void showInfo() {
+    System.out.println("책 이름 : " + name + ", 판매가 : " + price + ", 주소 : " + this + hashCode());
   }
 }
