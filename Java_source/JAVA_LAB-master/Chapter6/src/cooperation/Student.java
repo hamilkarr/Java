@@ -1,29 +1,28 @@
 package cooperation;
 
 public class Student {
-	 public String studentName;    // ÇĞ»ı ÀÌ¸§
-	 public int grade;              // ÇĞ³â
-	 public int money;             // ÇĞ»ıÀÌ °¡Áö°í ÀÖ´Â µ·
-	
-	 public Student(String studentName, int money)  // ÀÌ¸§°ú µ· ÃÊ±âÈ­ÇÏ±â
-	 {   
-		  this.studentName = studentName;
-		  this.money = money;
-	 }
-	    
-	 public void takeBus(Bus bus) {
-		  bus.take(1000);
-		  this.money -= 1000;
-	 }
-	    
-	 public void takeSubway(Subway subway) {
-		  subway.take(1500);
-		  this.money -= 1500;
-	 }
-	    
-	 public void showInfo() {
-		  System.out.println(studentName + "´ÔÀÇ ³²Àº µ·Àº " + money + "ÀÔ´Ï´Ù.");
-	 }
+	public String studentName; // ï¿½Ğ»ï¿½ ï¿½Ì¸ï¿½
+	public int grade; // ï¿½Ğ³ï¿½
+	public int money; // ï¿½Ğ»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½
 
+	public Student(String studentName, int money) // ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ê±ï¿½È­ï¿½Ï±ï¿½
+	{
+		this.studentName = studentName;
+		this.money = money;
+	}
+
+	public void takeBus(Bus bus) {
+		bus.take(1000);
+		this.money -= 1000;
+	}
+
+	public void takeSubway(Subway subway) {
+		subway.take(1500);
+		this.money -= 1500;
+	}
+
+	public void showInfo() {
+		System.out.println(studentName + "ë‹˜ì˜ ë‚¨ì€ ëˆì€ " + money + "ì…ë‹ˆë‹¤.");
+	}
 
 }

@@ -1,22 +1,22 @@
 package cooperation;
 
 public class Subway {
-	 public String lineNumber;           // ÁöÇÏÃ¶ ³ë¼± ¹øÈ£
-	 public int passengerCount;          // ½Â°´ ¼ö 
-	 public int money;                   // ¼öÀÔ ¾×
-	    
-	 public Subway(String lineNumber) {   // ÁöÇÏÃ¶ ³ë¼± ÃÊ±âÈ­
-		  this.lineNumber = lineNumber;   
-	 }
-	    
-	 public void take(int money) {         // ½Â°´ÀÌ Åº °æ¿ì 
-		  this.money += money;               // ¼öÀÔ Áõ°¡
-		  passengerCount++;                  // ½Â°´ ¼ö Áõ°¡
-	 } 
-	    
-	 public void showInfo()              // ÁöÇÏÃ¶ Á¤º¸ Ãâ·Â
-	 {
-		  System.out.println(lineNumber + "ÀÇ ½Â°´Àº " + passengerCount +"¸íÀÌ°í, ¼öÀÔÀº " + money + "ÀÔ´Ï´Ù.");
-	 }
+	public String lineNumber; // ï¿½ï¿½ï¿½ï¿½Ã¶ ï¿½ë¼± ï¿½ï¿½È£
+	public int passengerCount; // ï¿½Â°ï¿½ ï¿½ï¿½
+	public int money; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+
+	public Subway(String lineNumber) { // ï¿½ï¿½ï¿½ï¿½Ã¶ ï¿½ë¼± ï¿½Ê±ï¿½È­
+		this.lineNumber = lineNumber;
+	}
+
+	public void take(int money) { // ï¿½Â°ï¿½ï¿½ï¿½ Åº ï¿½ï¿½ï¿½
+		this.money += money; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		passengerCount++; // ï¿½Â°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	}
+
+	public void showInfo() // ï¿½ï¿½ï¿½ï¿½Ã¶ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+	{
+		System.out.println(lineNumber + "ì˜ ìŠ¹ê°ì€ " + passengerCount + "ëª…ì´ê³ , ìˆ˜ì…ì€ " + money + "ì…ë‹ˆë‹¤.");
+	}
 
 }

@@ -1,24 +1,23 @@
 package cooperation;
 
 public class Bus {
-	   int busNumber;             // ¹ö½º ¹øÈ£
-		 int passengerCount;        // ½Â°´ ¼ö
-		 int money;                 // ¹ö½ºÀÇ ¼öÀÔ
-		    
-		 public Bus(int busNumebr)   // ¹ö½º ¹øÈ£¸¦ ¸Å°³º¯¼ö·Î ¹Ş´Â »ı¼ºÀÚ
-		 {   
-			  this.busNumber = busNumebr;
-		 }
-		
-		 public void take(int money)   // ½Â°´ÀÌ ³½ µ·À» ¹ŞÀ½
-		 {  
-			  this.money += money;    // ¹ö½ºÀÇ ¼öÀÔ Áõ°¡
-			  passengerCount++;      // ½Â°´ ¼ö Áõ°¡
-		 }
-		    
-		 public void showInfo() {      // ¹ö½º Á¤º¸¸¦ Ãâ·ÂÇÏ´Â ÇÔ¼ö
-			  System.out.println("¹ö½º " + busNumber + "¹øÀÇ ½Â°´Àº " + passengerCount +"¸íÀÌ°í, ¼öÀÔÀº " + money + "ÀÔ´Ï´Ù.");
-		 }
+	int busNumber; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£
+	int passengerCount; // ï¿½Â°ï¿½ ï¿½ï¿½
+	int money; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
+	public Bus(int busNumebr) // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ş´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	{
+		this.busNumber = busNumebr;
+	}
+
+	public void take(int money) // ï¿½Â°ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	{
+		this.money += money; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		passengerCount++; // ï¿½Â°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	}
+
+	public void showInfo() { // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Ô¼ï¿½
+		System.out.println("ë²„ìŠ¤ " + busNumber + "ë²ˆì˜ ìŠ¹ê°ì€" + passengerCount + "ëª…ì´ê³ , ìˆ˜ì…ì€ " + money + "ì…ë‹ˆë‹¤.");
+	}
 
 }

@@ -1,23 +1,22 @@
 package chapter6.cooperation;
 
 public class Taxi {
-	   String companyName;             // È¸»ç ÀÌ¸§
-	   int money;                 // ÅÃ½ÃÀÇ ¼öÀÔ
-		    
-		 public Taxi(String companyName)   // È¸»ç ÀÌ¸§¸¦ ¸Å°³º¯¼ö·Î ¹Ş´Â »ı¼ºÀÚ
-		 {   
-			  this.companyName = companyName;
-		 }
-		
-		 public void take(int money)   // ½Â°´ÀÌ ³½ µ·À» ¹ŞÀ½
-		 {  
-			  this.money += money;    // ÅÃ½ÃÀÇ ¼öÀÔ Áõ°¡
-			  
-		 }
-		    
-		 public void showInfo() {      // ¹ö½º Á¤º¸¸¦ Ãâ·ÂÇÏ´Â ÇÔ¼ö
-			  System.out.println(companyName + " ÅÃ½Ã ¼öÀÔÀº " + money + "ÀÔ´Ï´Ù.");
-		 }
+	String companyName; // È¸ï¿½ï¿½ ï¿½Ì¸ï¿½
+	int money; // ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
+	public Taxi(String companyName) // È¸ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ş´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	{
+		this.companyName = companyName;
+	}
+
+	public void take(int money) // ï¿½Â°ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	{
+		this.money += money; // ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+
+	}
+
+	public void showInfo() { // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Ô¼ï¿½
+		System.out.println(companyName + " íƒì‹œ ìš”ê¸ˆì€ " + money + " ì…ë‹ˆë‹¤..");
+	}
 
 }
