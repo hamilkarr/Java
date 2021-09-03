@@ -5,3 +5,14 @@
       - 모든 클래스는 java.lang.Object를 상속 받고 있따.
     2) 컴파일러가 자동 추가
       a. import java
+
+11-4) Class 클래스
+  
+  Object
+    .getClass()
+
+  모든클래스.Class
+  컴파일 이후 실행중에서 로딩
+  클래스가 있는지 여부 .... 컴파일 시에 체크
+
+  Class.forName -> 동적 로딩

@@ -1,0 +1,57 @@
+12-01) 제네릭
+  하나의 참조 자료형(X) -> 여러 참조 자료형으로 사용할 수 있도록 하는것
+
+  예)
+  GenericPrinter<Powder>
+  
+  Powder = 대입된 자료형
+  GenericPrinter<Powder> - 제네릭 자료형
+
+  T -> Powder -> 인스턴스가 생성될 때 변환
+  
+  static 변수, 메서드의 자료형으로 변환 불가(X) -> 생성 시점 차이 변환 불가.
+  멤버 변수와 일반 메서드만 제네릭 자료형 적용 가능(O)
+
+  제너릭 메서드 확인하기
+  Number
+    - Integer -> Number -> doubleValue(); -> Integer에 있는 doubleValue(); 호출
+    - Double -> Number -> doubleValue(); -> Double에 있는 doubleValue(); 호출
+    - Float -> Number -> doubleValue(); -> Float에 있는 doubleValue(); 호출
+
+< > -> 대입된 자료형이 투입.
+
+static 메서드 
+  -> 인스턴스가 생성될때 제너릭 자료형이 결정 -> X
+  -> 메서드 내로 한정해서 투입하면 가능 O
+
+12-2) 컬렉션 프레임워크
+  자료구조
+  Collection 인터페이스
+    -List 인터페이스
+      순서가 있는 순차적인 자료형, 중복 가능 - 배열
+      ArrayList
+      Vector
+      LinkedList
+      Queue
+      Stack
+
+    -Set 인터페이스
+      : 순서가 정해지지 않은 중복없는 자료 - 집합
+      HashSet
+      TreeSet -> 순서가 있는 형태로 자료 관리(중복 X + 정렬 O - (이진)트리 구조 정렬)
+
+  Map 인터페이스
+      : key-value 형태로 되어 있는 자료로 관리
+      HashMap
+      TreeMap
+
+      Key -> Value를 조회하기 위한 값
+        -> Key 는 중복이 안되는 Set 자료형
+        -> Value는 중복이 되는 값
+
+12-3) List 인터페이스 
+  - 순차 자료 구조( 순서가 있는 자료 구조)
+  - 배열 
+  - 배열 객체(ArrayList: 물리적 순차 자료 구조, LinkedList : 논리적 순차 자료 구조)
+  - Member
+     추가, 삭제, 출력
