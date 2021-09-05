@@ -16,5 +16,6 @@ public class TransEx {
 
     Subway sub = new Subway("인천2호선", 1250);
     st1.rideSubway();
+    System.out.println(); >> aa(); {}
   }
 }

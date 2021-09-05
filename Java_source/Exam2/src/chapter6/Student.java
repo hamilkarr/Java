@@ -20,7 +20,7 @@ public class Student {
     bus.collect(this); // this 는 Student s
   }
 
-  public void rideSubway(Subway subway) {
+  public void rideSubway() {
     subway.collect(this);
   }
 

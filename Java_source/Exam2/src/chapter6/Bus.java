@@ -1,7 +1,8 @@
 package chapter6;
 
 public class Bus {
-  int busNum;
+  private int busNum;
+
   int busPassengerCount;
   int busFare;
   int busProfit;
