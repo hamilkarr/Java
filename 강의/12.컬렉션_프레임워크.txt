@@ -55,3 +55,71 @@ static 메서드
   - 배열 객체(ArrayList: 물리적 순차 자료 구조, LinkedList : 논리적 순차 자료 구조)
   - Member
      추가, 삭제, 출력
+
+Collection 인터페이스
+	- 반복 순회  - Iterator
+	
+	List 인터페이스(순차 자료 구조 - 배열) - 인덱스 번호
+		- ArrayList 
+			(물리적 순서 == 논리적 순서 -  변경, 추가, 삭제 -> 매번 인스턴스가 내부에서 생성 반복)
+			- 추가, 수정, 삭제시 부하
+			- 조회 전용으로 사용 할 경우 유리 
+		- LinkedList
+			(물리적 순서 X, 논리적 순서 - 요소 마다 다음 요소의 주소를 가지고 있다)
+			- 추가, 수정, 삭제 시 유리 
+		    - 조회 전용으로는 ArrayList보다 불리하다
+			
+	Set 인터페이스(집합 자료 구조)
+		- 순서 유지 X 
+		- 중복 X 
+		- 중복 여부 체크  -> equals, hashCode -> 논리적 동일 -> 인스턴스 중복 
+		
+		HashSet 
+		TreeSet (HashSet + 정렬  
+									- java.lang.Comparable  Interface - int compareTo
+									- java.util.Comparator interface - int compare
+												- TreeSet, TreeMap compare가 정의되어 있는 인스턴스를 생성자 
+												   매개변수로 넣어 줘야 한다.
+									
+									반환값이 양수 -> 오름차순 정렬
+									반환값이 음수 -> 내림차순 정렬
+		
+Map 인터페이스
+	- Key - Value 쌍 
+	- Iterator X -> Map 자체로는 반복 순회 출력 불가능
+	
+	- Key는 Set 자료형
+		-> keySet() 메서드를 이용해서 반복 순회(Iterator 사용 사용)
+		Set은 Collection 인터페이스를 상속 -> Iterator가 있음
+		
+	HashMap
+	TreeMap(HashMap + 정렬)
+
+    java.lang.Comparable - int compareTo
+    java.util.Comparator - int compare
+    438-16
+
+1. Collection 인터페이스 
+  Iterator - 반복자(hasNext(), next())
+  1) List 인터페이스 (순차 자료구조 - 배열)
+    - ArrayList (물리적 순서 == 논리적 순서 -> Object[] 형태)
+    - LinkedList (물리적 순서 X -> 논리적 순서 O -요소 -> 다음 요소를 접근하는 주소)
+    - Vector
+    - Stack
+    - Queue
+  2) Set 인터페이스 (집합 자료 구조)
+    - 순서 X
+    - 중복 X
+    - HashSet
+    - TreeSet (HashSet + 정렬 - Comparable interface, Comparator interface)
+
+2. Map 인터페이스 (439 page)
+  key - value 쌍
+  Iterator 정의 X -> 반복할 수 없음
+  key -> 중복 불가능
+  value -> 중복 가능
+
+    - HashMap
+    - TreeMap
+
+  
