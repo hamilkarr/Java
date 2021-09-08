@@ -14,6 +14,7 @@ public class ThreeDPrinterTest {
     Plastic plastic = printer1.getMaterial();
     System.out.println(printer1);
 
+    ThreeDPrinter<Water> printer3 = new ThreeDPrinter<>();
     printer1.printing();
   }
 }

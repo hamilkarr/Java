@@ -1,0 +1,280 @@
+{
+  // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+  // 기존 특성에 대한 설명을 보려면 가리킵니다.
+  // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch ObjectTest2",
+      "request": "launch",
+      "mainClass": "ObjectTest2",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch ObjectEx1",
+      "request": "launch",
+      "mainClass": "chapter11.ObjectEx1",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch ToStringEx",
+      "request": "launch",
+      "mainClass": "chapter11.ToStringEx",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch StudentTest",
+      "request": "launch",
+      "mainClass": "chapter11.section01.StudentTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch HashCodeTest",
+      "request": "launch",
+      "mainClass": "chapter11.section01.section01_1.HashCodeTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringEquals",
+      "request": "launch",
+      "mainClass": "chapter11.section01.section01_1.StringEquals",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringEx1",
+      "request": "launch",
+      "mainClass": "chapter11.section02.StringEx1",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringEx3",
+      "request": "launch",
+      "mainClass": "chapter11.section02.StringEx3",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringEx4",
+      "request": "launch",
+      "mainClass": "chapter11.section02.StringEx4",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringTest1",
+      "request": "launch",
+      "mainClass": "chapter11.section02.bookEx1.StringTest1",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch ClassEx1",
+      "request": "launch",
+      "mainClass": "chapter11.section04.ClassEx1",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch ClassEx2",
+      "request": "launch",
+      "mainClass": "chapter11.section04.ClassEx2",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch ClassEx3",
+      "request": "launch",
+      "mainClass": "chapter11.section04.ClassEx3",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch LibraryTest",
+      "request": "launch",
+      "mainClass": "chapter12.LibraryTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberArrayListTest",
+      "request": "launch",
+      "mainClass": "chapter12.collection.arraylist.MemberArrayListTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch QueueTest",
+      "request": "launch",
+      "mainClass": "chapter12.collection.arraylist.QueueTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch StackTest",
+      "request": "launch",
+      "mainClass": "chapter12.collection.arraylist.StackTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch HashSetEx1",
+      "request": "launch",
+      "mainClass": "chapter12.collection.hashset.HashSetEx1",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberHashSetTest",
+      "request": "launch",
+      "mainClass": "chapter12.collection.hashset.MemberHashSetTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberLinkedListTest",
+      "request": "launch",
+      "mainClass": "chapter12.collection.linkedlist.MemberLinkedListTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberTreeSetTest",
+      "request": "launch",
+      "mainClass": "chapter12.collection.treeset.MemberTreeSetTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch TreeSetEx1",
+      "request": "launch",
+      "mainClass": "chapter12.collection.treeset.TreeSetEx1",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberHashMapTest",
+      "request": "launch",
+      "mainClass": "chapter12.hashmap.MemberHashMapTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch GenericPrinterTest",
+      "request": "launch",
+      "mainClass": "chapter12.section01.GenericPrinterTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch ThreeDPrinterTest",
+      "request": "launch",
+      "mainClass": "chapter12.section01.ThreeDPrinterTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1Test",
+      "request": "launch",
+      "mainClass": "chapter12.section01.ex02.Ex1Test",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberTreeMapTest",
+      "request": "launch",
+      "mainClass": "chapter12.treemap.MemberTreeMapTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1",
+      "request": "launch",
+      "mainClass": "chapter14.Ex1",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex3",
+      "request": "launch",
+      "mainClass": "chapter14.Ex3",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex4",
+      "request": "launch",
+      "mainClass": "chapter14.Ex4",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch IDFormatTest",
+      "request": "launch",
+      "mainClass": "chapter14.throwsExam.IDFormatTest",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch ThrowsException",
+      "request": "launch",
+      "mainClass": "chapter14.throwsExam.ThrowsException",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1(1)",
+      "request": "launch",
+      "mainClass": "chapter15.Ex1",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex3(1)",
+      "request": "launch",
+      "mainClass": "chapter15.Ex3",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex4(1)",
+      "request": "launch",
+      "mainClass": "chapter15.Ex4",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex5",
+      "request": "launch",
+      "mainClass": "chapter15.Ex5",
+      "projectName": "Exam3_5ab74c4b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex6",
+      "request": "launch",
+      "mainClass": "chapter15.Ex6",
+      "projectName": "Exam3_5ab74c4b"
+    }
+  ]
+}

@@ -17,6 +17,15 @@ public class MemberArrayList {
   }
 
   public boolean removeMember(int memberID) {
+    for (int i = 0; i < arrayList.size(); i++) {
+      Member member = arrayList.get(i);
+      int tempID = member.getMemberID();
+      if (memberID == tempID) {
+        arrayList.remove(i);
+        return true;
+      }
+    }
+
     /*
      * for (int i = 0; i < arrayList.size(); i++) { Member member =
      * arrayList.get(i); int tempID = member.getMemberID(); if (memberID == tempID)
