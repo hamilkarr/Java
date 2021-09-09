@@ -6,6 +6,139 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch RandomACFileEx2",
+      "request": "launch",
+      "mainClass": "chapter15.file.RandomACFileEx2",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1",
+      "request": "launch",
+      "mainClass": "chapter15.file.Ex1",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch BookTest",
+      "request": "launch",
+      "mainClass": "chapter15.objinoutstream.BookTest",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch StudentTest",
+      "request": "launch",
+      "mainClass": "chapter15.objinoutstream.StudentTest",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch DataInOutputStreamEx5",
+      "request": "launch",
+      "mainClass": "chapter15.decorator.DataInOutputStreamEx5",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch BufferedEx4",
+      "request": "launch",
+      "mainClass": "chapter15.decorator.BufferedEx4",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch FileInOutStreamEx3",
+      "request": "launch",
+      "mainClass": "chapter15.decorator.FileInOutStreamEx3",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch FileInputStreamEx1",
+      "request": "launch",
+      "mainClass": "chapter15.decorator.FileInputStreamEx1",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch FileWriterEx6",
+      "request": "launch",
+      "mainClass": "chapter15.inoutputStream.FileWriterEx6",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch FileReaderEx5",
+      "request": "launch",
+      "mainClass": "chapter15.inoutputStream.FileReaderEx5",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch FileOutputStreamEx4",
+      "request": "launch",
+      "mainClass": "chapter15.inoutputStream.FileOutputStreamEx4",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch FileInputStreamEx3",
+      "request": "launch",
+      "mainClass": "chapter15.inoutputStream.FileInputStreamEx3",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch FileInputStreamEx2",
+      "request": "launch",
+      "mainClass": "chapter15.inoutputStream.FileInputStreamEx2",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch FileInputStreamEx1",
+      "request": "launch",
+      "mainClass": "chapter15.inoutputStream.FileInputStreamEx1",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConsoleEx10",
+      "request": "launch",
+      "mainClass": "chapter15.ConsoleEx10",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch ScannerEx9",
+      "request": "launch",
+      "mainClass": "chapter15.ScannerEx9",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex8",
+      "request": "launch",
+      "mainClass": "chapter15.Ex8",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex7",
+      "request": "launch",
+      "mainClass": "chapter15.Ex7",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex6",
+      "request": "launch",
+      "mainClass": "chapter15.Ex6",
+      "projectName": "Exam3_621c816a"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"
