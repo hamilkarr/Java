@@ -3,6 +3,7 @@ package chapter15.objinoutstream;
 import java.io.Serializable;
 
 public class Student implements Serializable {
+
   private int studentID;
   private String name;
   private int age;
