@@ -19,9 +19,18 @@ public class BookArrayList {
 
 		System.out.println("================================");
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("책검색: ");
 		String bookSearchKey = scanner.nextLine();
-		bookList.stream().map(bookSearchKey-> bookSearchKey.getBookName()).
+		System.out.println("검색할 도서명을 입력하시오.");
+		System.out.println("->");
+		
+	    for (Book s : bookList) {
+	      if (s.indexOf(bookSearchKey) != -1) {
+	        System.out.println(s);
+	      } else {
+	        System.out.println("찾는 도서가 없습니다.");
+	      }
+	      // System.out.println(s);
+	    }
 
 		// map(c -> c.getBookName()).anyMatch(d->d.getChars(srcBegin, srcEnd, dst,
 		// dstBegin)).forEach(s -> System.out.println(s));
