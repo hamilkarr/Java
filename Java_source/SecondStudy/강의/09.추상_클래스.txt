@@ -3,6 +3,16 @@
 
   구현된 형태의 코드가 없는 메서드를 포함하는 클래스.
 
+  상속을 통해서 의미가 있는 클래스 -> 하위 클래스가 추상 메서드의 구현 부분을 클래스에 맞게 구현
+  메서드의 구현 규칙을 정해준다.
+
+  Collection -> add 추상 메서드 -> 구현부분 X, 정의 O
+  ArrayList
+    - add
+  LinkedList 
+    - add
+  HashSet
+    - add
 
   추상메서드 -> 상속받은 하위 클래스가 반드시 구현
     - 추상메서드 -> 하위 클래스의 표준
@@ -28,3 +38,24 @@
   final 클래스명 -> 상속 불가
   final 메서드명 -> 재정의 불가
   final 변수명 -> 상수
+
+P287, 한걸음 더: 추상 메서드가 없어도 abstract 클래스로 정의하는 경우
+  AbstractTV -> 구체적인 메서드 turnOn, turnOff
+  추상메서드가 없음
+  AbstractTV -> 완전한 TV X -> 인스턴스 생성되면 X
+
+P289
+
+P296
+
+PlayerLevel
+  -> BeginnerLevel
+  -> AdvancedLevel
+  -> SuperLevel
+  -> go(템플릿)->
+
+  P299 - 15
+  public void upgradeLevel(PlayerLevel level) {
+    this.level = level;
+    level.showLevelMessage();
+  }

@@ -43,10 +43,10 @@ public class BookManager {
   }
 
   void addBook() {
-    String isbn;
+    String title;
     System.out.print("추가할 도서 ISBN:");
-    isbn = scan.nextLine();
-    if (book_dic.containsKey(isbn)) {
+    title = scan.nextLine();
+    if (book_dic.containsKey(title)) {
       System.out.println("이미 존재하는 ISBN입니다.");
       return;
     }
@@ -91,6 +91,7 @@ public class BookManager {
     System.out.println("도서 목록");
     int cnt = book_dic.size();
     System.out.println("도서 수:" + cnt);
+    //System.out.println(book_dic.values());
     for (Book book : book_dic.values()) {
       System.out.println(book.toString());
     }

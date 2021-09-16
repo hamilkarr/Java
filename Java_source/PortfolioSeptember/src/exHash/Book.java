@@ -2,8 +2,8 @@ package exHash;
 
 //도서 클래스
 public class Book {
-  final String isbn;
-  String title;
+   String isbn;
+  final String title;
   int price;
 
   public Book(String isbn, String title, int price) {

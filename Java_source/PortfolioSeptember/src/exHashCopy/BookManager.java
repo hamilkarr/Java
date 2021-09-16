@@ -6,29 +6,33 @@ import java.util.Scanner;
 
 public class BookManager {
 	Scanner scan = new Scanner(System.in);
-	HashMap<String, Book> book_dic = new HashMap<String, Book>();
+	HashMap<String, Book> bookList = new HashMap<String, Book>();
+
+	public void Load() {
+		bookList.put("1001", new Book("1001", "1페이지 한국사 365", "심용환", "픽피시"));
+		bookList.put("1002", new Book("1002", "돈 설명서", "라슈미 시데르슈판드", "솔빛길"));
+		bookList.put("1003", new Book("1003", "완전한 행복", "정유정", "은행나무"));
+	}
 
 	public void Run() {
 		int key = 0;
 		while ((key = selectMenu()) != 0) {
 			switch (key) {
 				case 1:
-					addBook();
-					break;
-				case 2:
-					removeBook();
-					break;
-				case 3:
-					searchBook();
-					break;
-				case 4:
 					listBook();
 					break;
-				case 5:
-					listISBN();
+				case 2:
+					searchBook();
 					break;
+				case 3:
+					addBook();
+					break;
+				case 4:
+					removeBook();
+					break;
+
 				default:
-					System.out.println("잘못 선택하였습니다.");
+					System.out.println("잘못 선택했습니다.");
 					break;
 			}
 		}
@@ -36,39 +40,54 @@ public class BookManager {
 	}
 
 	int selectMenu() {
-		System.out.println("1:추가 2:삭제 3:검색 4:도서 목록 5:ISBN 목록 0:종료");
+		System.out.println("===================도서 관리 프로그램 입니다==============");
+		System.out.println("============원하는 명령의 번호를 입력해 주세요============");
+		System.out.println("1:도서 목록  2:도서 검색  3:도서 추가  4:도서 삭제  0:종료");
+		System.out.println();
 		int key = scan.nextInt();
 		scan.nextLine();
 		return key;
 	}
 
+	void listBook() {
+		System.out.println("도서 목록");
+
+		int count = bookList.size();
+		System.out.println("도서 수: " + count);
+		for (Book book : bookList.values()) {
+			System.out.println(book.toString());
+		}
+	}
+
 	void addBook() {
-		String isbn;
-		System.out.print("추가할 도서 ISBN:");
-		isbn = scan.nextLine();
-		if (book_dic.containsKey(isbn)) {
-			System.out.println("이미 존재하는 ISBN입니다.");
+		String bookNumber;
+		System.out.print("도서 번호:");
+		bookNumber = scan.nextLine();
+		if (bookList.containsKey(bookNumber)) {
+			System.out.println("이미 존재하는 도서 번호 입니다.");
 			return;
 		}
-		String title;
-		int price;
-		System.out.print("도서 제목:");
-		title = scan.nextLine();
-		System.out.print("가격:");
-		price = scan.nextInt();
-		scan.nextLine();
-		Book book = new Book(isbn, title, price);
-		book_dic.put(isbn, book);
-		System.out.println(book.toString() + " 생성하였습니다.");
+		String bookName;
+		String author;
+		String publisher;
 
+		System.out.print("도서 제목:");
+		bookName = scan.nextLine();
+		System.out.print("저자:");
+		author = scan.nextLine();
+		System.out.println("출판사:");
+		publisher = scan.nextLine();
+		Book book = new Book(bookNumber, bookName, author, publisher);
+		bookList.put(bookNumber, book);
+		System.out.println(book.toString() + " 등록 하였습니다.");
 	}
 
 	void removeBook() {
-		String isbn;
-		System.out.print("삭제할 도서 ISBN:");
-		isbn = scan.nextLine();
-		if (book_dic.containsKey(isbn)) {
-			book_dic.remove(isbn);
+		String bookNumber;
+		System.out.print("삭제할 도서 번호");
+		bookNumber = scan.nextLine();
+		if (bookList.containsKey(bookNumber)) {
+			bookList.remove(bookNumber);
 			System.out.println("삭제하였습니다.");
 		} else {
 			System.out.println("존재하지 않습니다.");
@@ -76,32 +95,15 @@ public class BookManager {
 	}
 
 	void searchBook() {
-		String isbn;
+		String bookNumber;
 		System.out.print("검색할 도서 ISBN:");
-		isbn = scan.nextLine();
-		if (book_dic.containsKey(isbn)) {
-			Book book = book_dic.get(isbn);
+		bookNumber = scan.nextLine();
+		if (bookList.containsKey(bookNumber)) {
+			Book book = bookList.get(bookNumber);
 			System.out.println("검색 결과>>" + book.toString());
 		} else {
 			System.out.println("존재하지 않습니다.");
 		}
 	}
 
-	void listBook() {
-		System.out.println("도서 목록");
-		int cnt = book_dic.size();
-		System.out.println("도서 수:" + cnt);
-		for (Book book : book_dic.values()) {
-			System.out.println(book.toString());
-		}
-	}
-
-	void listISBN() {
-		System.out.println("ISBN 목록");
-		int cnt = book_dic.size();
-		System.out.println("도서 수:" + cnt);
-		for (String isbn : book_dic.keySet()) {
-			System.out.println(isbn);
-		}
-	}
 }
