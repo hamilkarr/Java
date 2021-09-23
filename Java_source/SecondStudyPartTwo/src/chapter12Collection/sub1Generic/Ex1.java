@@ -2,11 +2,17 @@ package chapter12Collection.sub1Generic;
 
 public class Ex1 {
   public static void main(String[] args) {
-    ThreeDPrinter printer = new ThreeDPrinter();
-    printer.addMaterial(new Plastic());
-    System.out.println(printer);
+    ThreeDPrinter plasticPrinter = new ThreeDPrinter();
+    ThreeDPrinter powderPrinter = new ThreeDPrinter();
 
-    printer.addMaterial(new Powder());
-    System.out.println(printer);
+    plasticPrinter.addMaterial(new Plastic());
+    powderPrinter.addMaterial(new Powder());
+
+    Plastic plastic = (Plastic) plasticPrinter.getMaterial();
+    plastic.doPrinting();
+
+    Powder powder = (Powder) powderPrinter.getMaterial();
+    powder.doPrinting();
+
   }
 }

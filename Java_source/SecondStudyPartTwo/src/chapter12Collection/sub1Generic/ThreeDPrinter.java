@@ -7,6 +7,10 @@ public class ThreeDPrinter {
     this.material = material;
   }
 
+  public Object getMaterial() {
+    return material;
+  }
+
   @Override
   public String toString() {
     return material.toString();

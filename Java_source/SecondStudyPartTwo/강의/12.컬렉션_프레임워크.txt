@@ -1,0 +1,54 @@
+1 제네릭이란?
+  어떤 값이 하나의 참조 자료형이 아닌 여러 참조 자료형을 사용할 수 있도록 프로그래밍 하는 것
+
+    모든 클래스는 Object 클래스를 상속 받는다.
+    -> 다형성
+
+    <T> --> <Plastic> T로 정의된 부분이 Plastic으로 변경
+    -> 제네릭에서 자료형이 결정되는 순간
+      (인스턴스가 생성되는 시점에 결정)
+      -> 생성되기 전에는 자료형이 변경되어 있을까? X
+      -> 생성되기 전에 접근 가능한 변수, 메서드 -> 적용 불가
+        (static 정의된 변수, 메서드)
+      
+      제네릭 자료형 -> 투입된 자료형 -> Object 인식 -> 투입된 자료형으로 형변환
+
+      Powder,Plastic ->  프린터에 사용되는 재료, 공통 기능
+
+      <T extends 자료형 클래스> -> T는 Object로 결정되지 않고 Material로 결정된 후 시작한다.
+
+  1.2 ThreeDPrinter
+    -> Plastic
+    -> Powder
+
+  1.3 <T extends 클래스>
+
+  1.4 제네릭 메서드
+    제네릭 -> 메서드에 한정
+
+    < ...> : 자료형이 투입되는 입구가 메서드에 위치 -> static 메서드도 제네릭 형태로 활용 가능.
+
+    대입된 자료형이 결정되는 시즘? 메서드가 호출되는 시점(스택에 올라가 있을때)
+
+2. 컬렉션 프레임워크
+  Collection 인터페이스
+    List 인터페이스 ( 순차 자료 구조 ) - 배열객체
+      ArayyList 클래스
+      LinkedList 클래스
+      Vector
+      Stack,Queue
+
+    Set 인터페이스 ( 집합 자료 구조 )
+      순서가 없는 자료 구조,중복이 안되는 자료 구조
+      HashSet
+      TreeSet
+
+  Map 인터페이스 (Key - Value 쌍의 자료 구조)
+    Key -> Value를 찾기 위한 데이터
+    Key -> 유일한 값(Set 자료형(집합))
+
+    Value -> 중복 -> Collection
+
+    HashMap
+    TreeMap
+    Hashtable - properties

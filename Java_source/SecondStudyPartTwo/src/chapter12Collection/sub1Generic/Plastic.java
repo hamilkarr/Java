@@ -1,7 +1,7 @@
 package chapter12Collection.sub1Generic;
 
-public class Plastic {
-  void doPrinting() {
+public class Plastic extends Material {
+  public void doPrinting() {
     System.out.println("플리스틱으로 프린팅!");
 
   }
