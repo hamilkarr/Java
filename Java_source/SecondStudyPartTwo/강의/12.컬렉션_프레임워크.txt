@@ -48,7 +48,11 @@
     Key -> 유일한 값(Set 자료형(집합))
 
     Value -> 중복 -> Collection
-
-    HashMap
-    TreeMap
-    Hashtable - properties
+    Map -> Iterator가 없다. (순화 반복할 수 있는 자체 메서드가 없다.)
+      
+      - HashMap
+        - V put(K,V)
+        - get(Object Key)
+        - remove(Object key)
+      - TreeMap
+      - Hashtable - Properties

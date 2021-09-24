@@ -1,0 +1,238 @@
+{
+  // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+  // 기존 특성에 대한 설명을 보려면 가리킵니다.
+  // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Ex2",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub3Stream.Ex2",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub3Stream.Ex1",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex3",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub2Lambdar.Ex3",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub1.Ex1",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch BookTest",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub2.BookTest",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch StudentTest",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub3.StudentTest",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1String",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub4String.Ex1String",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex2String",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub4String.Ex2String",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex3StringBuilder",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub4String.Ex3StringBuilder",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex4Varargs",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub4String.Ex4Varargs",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1Wrapper",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub5Wrapper.Ex1Wrapper",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex2AutoBoxingUnBoxing",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub5Wrapper.Ex2AutoBoxingUnBoxing",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1ClassClass",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub6ClassClass.Ex1ClassClass",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex2",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub6ClassClass.Ex2",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex3",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub6ClassClass.Ex3",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1(1)",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub1Generic.Ex1",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberArrayListTest",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub2Collection.arrayList.MemberArrayListTest",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberHashMapTest",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub2Collection.hashMap.MemberHashMapTest",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1(2)",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub2Collection.hashSet.Ex1",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex2(1)",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub2Collection.hashSet.Ex2",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex3(1)",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub2Collection.hashSet.Ex3",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex4",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub2Collection.hashSet.Ex4",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberHashSetTest",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub2Collection.hashSet.MemberHashSetTest",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberLinkedListTest",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub2Collection.linkedList.MemberLinkedListTest",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1(3)",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub2Collection.treeMap.Ex1",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1(4)",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub1InnerClass.Ex1",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex2(2)",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub1InnerClass.Ex2",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex3(2)",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub1InnerClass.Ex3",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex4(1)",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub1InnerClass.Ex4",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex5",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub1InnerClass.Ex5",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1(5)",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub2Lambdar.Ex1",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    }
+  ]
+}
