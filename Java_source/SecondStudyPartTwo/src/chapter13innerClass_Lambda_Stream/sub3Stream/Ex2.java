@@ -12,7 +12,12 @@ public class Ex2 {
 
     // books.stream().filter(b -> b.getPrice() >= 20000).forEach(b ->
     // System.out.println(b));
-    books.stream().filter(b -> b.getPrice() >= 20000).map(b -> b.getBookname())
-        .sorted((s1, s2) -> s1.compareTo(s2) * -1).forEach(b -> System.out.println(b));
+    books.stream().filter(b -> b.getPrice() >= 20000).filter(b -> b.getBookname().equals("책2"))
+        .map(b -> b.getBookname()).sorted((s1, s2) -> s1.compareTo(s2) * -1).forEach(b -> System.out.println(b));
+
+    // 숫자-> maptoInt, mapToLong, mapToDouble
+
+    int total = books.stream().mapToInt(b -> b.getPrice()).sum();
+    System.out.println(total);
   }
 }

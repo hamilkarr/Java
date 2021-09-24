@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Ex1",
+      "request": "launch",
+      "mainClass": "chapter14Exception.sub1.Ex1",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex2",
+      "request": "launch",
+      "mainClass": "chapter14Exception.sub1.Ex2",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex3",
+      "request": "launch",
+      "mainClass": "chapter13innerClass_Lambda_Stream.sub3Stream.Ex3",
+      "projectName": "SecondStudyPartTwo_7b41082e"
+    },
+    {
+      "type": "java",
       "name": "Launch Ex2",
       "request": "launch",
       "mainClass": "chapter13innerClass_Lambda_Stream.sub3Stream.Ex2",
