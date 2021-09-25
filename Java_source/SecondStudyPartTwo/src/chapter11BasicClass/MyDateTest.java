@@ -1,4 +1,4 @@
-package chapter11BasicClass.sub1;
+package chapter11BasicClass;
 
 class MyDate {
   int day;
@@ -34,10 +34,11 @@ class MyDate {
 
   @Override
   public int hashCode() {
-    return day*10 + month * 101 + year*102;
-  }        
-  
+    return day * 10 + month * 101 + year * 102;
+  }
+}
 
+public class MyDateTest {
   public static void main(String[] args) {
     MyDate date1 = new MyDate(9, 18, 2004);
     MyDate date2 = new MyDate(9, 18, 2004);

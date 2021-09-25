@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch StringBuilder2",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub4String.StringBuilder2",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
+      "name": "Launch MyDateTest",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.MyDateTest",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
       "name": "Launch MyDateTest",
       "request": "launch",
       "mainClass": "chapter11BasicClass.sub1.MyDateTest",
