@@ -1,5 +1,7 @@
 package chapter11BasicClass.sub1;
 
+import java.util.Objects;
+
 public class MyDate {
   int day;
   int month;
@@ -13,12 +15,12 @@ public class MyDate {
 
   @Override
   public boolean equals(Object obj) {
-    MyDate mydate = (MyDate) obj;
-    if (this.day == mydate.day && this.month == mydate.month && this.year == mydate.year) {
+    if (this == obj)
       return true;
-    } else {
+    if (!(obj instanceof MyDate))
       return false;
-    }
+    MyDate other = (MyDate) obj;
+    return day == other.day && month == other.month && year == other.year;
   }
 
   public class MyDateTest {
