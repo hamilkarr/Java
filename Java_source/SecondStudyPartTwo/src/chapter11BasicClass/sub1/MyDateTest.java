@@ -1,7 +1,5 @@
 package chapter11BasicClass.sub1;
 
-import java.util.Objects;
-
 class MyDate {
   int day;
   int month;
@@ -36,13 +34,10 @@ class MyDate {
 
   @Override
   public int hashCode() {
-    // TODO Auto-generated method stub
-    return day + month + year;
-  }
+    return day*10 + month * 101 + year*102;
+  }        
+  
 
-}
-
-public class MyDateTest {
   public static void main(String[] args) {
     MyDate date1 = new MyDate(9, 18, 2004);
     MyDate date2 = new MyDate(9, 18, 2004);
