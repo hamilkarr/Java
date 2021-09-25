@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch MyDate$MyDateTest",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub1.MyDate$MyDateTest",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
+      "name": "Launch BookTest",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub2.BookTest",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub1.Ex1",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
       "name": "Launch Ex1",
       "request": "launch",
       "mainClass": "chapter14Exception.sub1.Ex1",

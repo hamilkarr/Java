@@ -1,0 +1,24 @@
+11-1. Object 클래스
+  Object 클래스는 모든 자바 클래스의 최상위 클래스.
+    -> 모든 클래스는 Object 클래스로 부터 상속을 받는다.
+  
+  Object 클래스의 주요 메서드
+    
+    - String toString() : 객체를 문자열로 표현하여 반환.
+    - boolean equals(Object object) : 두 인스턴스가 동일한지 여부를 반환.
+    - int hashCode() : 객체의 해시코드 값을 반환
+    - Object clone() : 객체를 복제하여 동일한 멤버 변수 값을 가진 새로운 인스턴스를 생성.
+    - Class getClass() : 객체의 Class 클래스를 반환.
+
+    주의) 모든 Object 메서드를 재정의 할 수 있는것은 아님. final 예약어로 선언한 메서드는 재정의 할 수 없음.
+
+    a) toString() 메서드.
+      - 재정의 하지 않은, 원형의 toString은 생성된 인스턴스의 클래스 이름과 주소값 만을 보여줌.
+      - 원형의 toString은 무쓸모한 경우가 많기 때문에, JDK의 기본 클래스 중에서는 toString() 메서드를 재정의해 둔 경우가 많다. 
+
+    b) equals() 메서드.
+      - equals() 메서드의 원래 기능은 두 인스턴스의 주소 값을 비교해서 boolean 값으로 반환해주는 것.
+      - equals() 메서드 또한 재정의해서 사용하는 경우가 많다.
+      
+      P362 나혼자 코딩
+    

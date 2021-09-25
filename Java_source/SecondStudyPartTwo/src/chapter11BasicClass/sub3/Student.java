@@ -21,12 +21,11 @@ public class Student {
       return true;
     } else
       return false;
-
   }
 
   @Override
   public int hashCode() {
     // TODO Auto-generated method stub
     return studentID;
-
+  }
 }
