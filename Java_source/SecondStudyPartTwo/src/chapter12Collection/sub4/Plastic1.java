@@ -10,8 +10,4 @@ public class Plastic1 {
     return "재료는 Plastic1 입니다.";
 
   }
-
-  public static void main(String[] args) {
-    System.out.println("진짜안되??");
-  }
 }
