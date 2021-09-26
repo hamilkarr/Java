@@ -24,4 +24,34 @@
 
     c) hashCode() 메서드
       
-    
+    d) clone()
+
+11-2 String 클래스
+
+11-3 Wrapper 클래스
+  
+  a) Integer
+    Integer number1 = Integer.valueOf(100);
+    int number1 = Integer.parseInt("100");
+      - 문자열로 전달된 숫자를 문자열에서 int 값을 바로 가져와서 반환.
+
+  오토박싱과 언박싱
+    Integer -> int 언박싱
+    int -> Integer 오토박싱
+
+11-4 Class 클래스
+  모르는 클래스의 정보를 사용할 경우, 클래스의 정보를 직접 찾아야함. 이때 사용하는게 Class  클래스.
+
+  a) Object 클래스의 getClass() 메서드 사용하기.
+  String s = new String();
+  Class c = s.getClass;
+
+  b) 클래스 파일 이름을 Class 변수에 직접 대입하기.
+    Class c = String.class;
+  
+  c) Class.forName("className")메서드 사용하기
+    Class c = Class.forName("java.lang.String");
+
+  리플렉션 : 클라스의 자료형을 모르는 상태에서, Class 클래스를 활용하여 그 클래스의 정보를 가져오고, 이 정보를 활용해서 인스턴스를 생성하거나 메서드를 호출하는 방식.
+
+  동적 로딩

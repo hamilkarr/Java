@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch NewInstanceTest",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub6ClassClass.NewInstanceTest",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringClassTest",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub6ClassClass.StringClassTest",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex2",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub6ClassClass.Ex2",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1ClassClass",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub6ClassClass.Ex1ClassClass",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1Wrapper",
+      "request": "launch",
+      "mainClass": "chapter11BasicClass.sub5Wrapper.Ex1Wrapper",
+      "projectName": "SecondStudyPartTwo_51ecb2ed"
+    },
+    {
+      "type": "java",
       "name": "Launch StringBuilder2",
       "request": "launch",
       "mainClass": "chapter11BasicClass.sub4String.StringBuilder2",

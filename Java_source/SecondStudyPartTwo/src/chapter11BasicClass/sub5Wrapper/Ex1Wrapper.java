@@ -3,9 +3,9 @@ package chapter11BasicClass.sub5Wrapper;
 public class Ex1Wrapper {
   public static void main(String[] args) {
     int num = 13;
-    // System.out.println(Integer.toString(num, 2));
-    // System.out.println(Integer.toString(num, 8));
-    // System.out.println(Integer.toString(num, 16));
+    System.out.println(Integer.toString(num, 2)); // 2진법
+    System.out.println(Integer.toString(num, 8)); // 8진법
+    System.out.println(Integer.toString(num, 16)); // 16진법
 
     Integer num1 = Integer.valueOf(num);
     Double num2 = Double.valueOf(num);
