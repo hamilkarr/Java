@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch GenericPrinter1Test",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub4.GenericPrinter1Test",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Plastic1",
+      "request": "launch",
+      "mainClass": "chapter12Collection.sub4.Plastic1",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
       "name": "Launch NewInstanceTest",
       "request": "launch",
       "mainClass": "chapter11BasicClass.sub6ClassClass.NewInstanceTest",
