@@ -7,7 +7,9 @@ public class Ex2 {
       int num2 = 0;
       System.out.println(num1 / num2);
     } catch (ArithmeticException e) {
-      System.out.println(e.getMessage());
+      // e.printStackTrace(new PrintWriter("log.txt"));
+      // System.out.println(e.getMessage());
+      e.printStackTrace();
     }
     System.out.println("실행되나요??");
   }

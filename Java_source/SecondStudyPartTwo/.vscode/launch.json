@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Ex2",
+      "request": "launch",
+      "mainClass": "chapter14Exception.sub3Custom.Ex2",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1",
+      "request": "launch",
+      "mainClass": "chapter14Exception.sub3Custom.Ex1",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex5",
+      "request": "launch",
+      "mainClass": "chapter14Exception.sub2.Ex5",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex4",
+      "request": "launch",
+      "mainClass": "chapter14Exception.sub1.Ex4",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1",
+      "request": "launch",
+      "mainClass": "chapter14Exception.sub1.Ex1",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex3",
+      "request": "launch",
+      "mainClass": "chapter14Exception.sub2.Ex3",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex2",
+      "request": "launch",
+      "mainClass": "chapter14Exception.sub1.Ex2",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
       "name": "Launch GenericPrinter1Test",
       "request": "launch",
       "mainClass": "chapter12Collection.sub4.GenericPrinter1Test",

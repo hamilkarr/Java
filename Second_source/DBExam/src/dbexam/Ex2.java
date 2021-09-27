@@ -13,13 +13,13 @@ public class Ex2 {
 		String url = "jdbc:mysql://localhost:3306/madang";
 
 		try (Connection conn = DriverManager.getConnection(url, props); Statement stmt = conn.createStatement()) {
-			System.out.println("¿¬°á ¼º°ø!");
+			System.out.println("ì—°ê²° ì„±ê³µ!");
 
 			// String sql = "SELECT * FROM Book";
-			String publisher2 = "´ëÇÑ¹Ìµð¾î";
+			String publisher2 = "ëŒ€í•œë¯¸ë””ì–´";
 			String sql = "SELECT * FROM Book WHERE publisher='" + publisher2 + "'";
 			ResultSet rs = stmt.executeQuery(sql);
-			while (rs.next()) { // ´ÙÀ½ ÅõÇÃÀÌ ÀÖÀ¸¸é true, ¾øÀ¸¸é false
+			while (rs.next()) { // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ true, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ false
 				int bookid = rs.getInt("bookid");
 				String bookname = rs.getString("bookname");
 				String publisher = rs.getString("publisher");
