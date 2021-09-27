@@ -26,19 +26,3 @@ Throwable
       } finally {
         // 예외가 발생하든 안하든 무조건 실행되는 영역
       }
-
-      try - with - resources
-      try(... 리소스를 자동으로 닫을 인스턴스; 인스턴스.....) {
-
-      } catch(....) {
-
-      }
-
-      AutoClosable 인터페이스의 close() 메서드를 구현한 인스턴스는 try 구간이 끝나는 부분에서 close()메서드를 자동으로 호출한다.
-
-      throws -> 예외 전가 -> 메서드를 호출하는 쪽에서 예외처리를 전가.
-
-      사용자 정의 예외
-        -> Exception  클래스
-
-      예외 발생 -> Throw 예외 인스턴스;
