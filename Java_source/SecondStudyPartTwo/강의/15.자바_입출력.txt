@@ -1,6 +1,6 @@
 입출력(입력,출력)
 IO -> Input,Output
-스트림 -> 데이터가 이동하는 가상의 통로
+스트림 : 입력과 출력을 위한 데이터가 이동하는 가상의 통로
 
 단방향 스트림
   - 입력 스트림
@@ -31,18 +31,46 @@ IO -> Input,Output
       FileWriter
       BufferdWriter
 
+Stream// Reader,Writer : 스트림은 바이트단위, 그외는 문자단위 
 기반스트림
+
   - 직접 읽고 쓰는 스트림
+
 
 보조스트림
   - 직접 읽고 쓰는 기능은 없음
   - 기반 스트림에  기능을 추가함
   - 기반스트림 + 보조스트림 + 보조스트림 (추가기능은 여러개 추가 가능)
 
+  - 생성자 매개변수
+    (InputStream, OutputStream, Reader,Writer )
+  - 기반 스트림이 매개변수로 들어가거나, 다른 보조 스트림도 매개변수로 들어갈 수 있다.
+
+  기반스트림 + 보조 스트림 + 보조 스트림 .... (기능 Up)
+
   BufferedInputStream
   BufferedOutputStream
 
   BufferedReader
   BufferedWriter
+
+표준 입출력
+  - 콘솔 화면에 입출력되는 콘솔 입출력.
+
+Scanner 클래스
+  생성자 매개변수
+  InputStream
+    - next자료형
+    - STring nextLine()
+
+  바이트 단위 스트림
+  InputStream
+
+  OutputStream
+
+  리소스 -> 열어주고, -> 사용이 끝나면 -> 닫기
+  
+
+
 
   
