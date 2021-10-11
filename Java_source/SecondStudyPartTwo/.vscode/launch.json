@@ -8,6 +8,55 @@
       "type": "java",
       "name": "Launch Ex2",
       "request": "launch",
+      "mainClass": "chapter15InOutputStream.sub2.Ex2",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex1ObjectStream",
+      "request": "launch",
+      "mainClass": "chapter15InOutputStream.sub2.Ex1ObjectStream",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex11DataStream",
+      "request": "launch",
+      "mainClass": "chapter15InOutputStream.Ex11DataStream",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex10",
+      "request": "launch",
+      "mainClass": "chapter15InOutputStream.Ex10",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex9",
+      "request": "launch",
+      "mainClass": "chapter15InOutputStream.Ex9",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex5",
+      "request": "launch",
+      "mainClass": "chapter15InOutputStream.Ex5",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex4",
+      "request": "launch",
+      "mainClass": "chapter15InOutputStream.Ex4",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex2",
+      "request": "launch",
       "mainClass": "chapter14Exception.sub3Custom.Ex2",
       "projectName": "SecondStudyPartTwo"
     },

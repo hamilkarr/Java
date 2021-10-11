@@ -64,13 +64,38 @@ Scanner 클래스
     - STring nextLine()
 
   바이트 단위 스트림
-  InputStream
+    InputStream
+      FileInputStream, DataInputStream, ObjectInputStream, BuffueredInputStream, ....    
 
-  OutputStream
+    OutputStream
+      FileOutputStream, DataOutputStream, ObjectOutputStream, BufferedOutputStream
 
-  리소스 -> 열어주고, -> 사용이 끝나면 -> 닫기
-  
+    리소스 -> 열어주고, -> 사용이 끝나면 -> 닫기
+    
+  문자 단위 스트림
+    Reader
+      FileReader - 기반 스트림
+      InputStreamReader - 보조 스트림(스트림 -> 문자)
+      BufferedReader - 보조 스트림
 
+    Writer
+      FileWriter - 기반 스트림
+      OutputStreamWriter - 보조스트림 (스트림 -> 문자)
+      BufferdWriter - 보조 스트림 
 
+보조 스트림
+  DataInputStream, DataOutputStream
+  파일에 자료형(원시언어 0/1) 자체로 저장하고 읽는 스트림
+
+  p547
+  readByte() / writeByte(int v)
+  readInt() / writeInt(int v)
+  readUTF() / writeUTF(String str)
+
+  ObjectInputStream, ObjectOutputStream - p550
+  인스턴스 상태 그대로 저장하고 읽어 올때
+    - 인스턴스는 입체적인 상태 (변수,메서드 ....) -> 파일로 바로 저장이 안된다. 네트워크상 바로 전달이 안된다.
+    - 전달이 가능한 상태? -> 입체적인 상태를 문자열 형태로 변환. (일렬로 나열한 상태) -> 직렬화
+    - 마커 인터페이스 (interface)
 
   
