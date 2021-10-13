@@ -1,0 +1,101 @@
+입출력(입력,출력)
+IO -> Input,Output
+스트림 : 입력과 출력을 위한 데이터가 이동하는 가상의 통로
+
+단방향 스트림
+  - 입력 스트림
+  - 출력 스트림
+
+입력스트림
+  - InputStream : 추상 클래스  (바이트 단위의 입력 스트림)
+      -> 바이트 단위의 입력스트림이 따라야할 규칙, 규약을 정의하는 추상 클래스
+      FileInputStream
+      BufferedInputStream
+
+  - Reader : 추상 클래스  (문자 단위의 입력 스트림)
+      -> 문자 단위의 입력 스트림이 따라야할 규칙, 규약을 정의하는 추상 클래스
+      FileReader
+      FilterInputStream
+      BufferedReader
+      DataInputStream
+      ObjectInputStream
+  
+출력스트림
+  - OutputStream : 추상 클래스 ( 바이트 단위의 출력 스트림)
+      -> 바이트 단위의 출력 스트림이 따라야할 규칙,규약을 정의한 추상 클래스
+      FileOutputStream
+      BufferedOutputStream
+
+  - Writer : 추상 클래스 ( 문자 단위의 출력 스트림)
+      -> 문자 단위의 출력 스트림이 따라야할 규칙, 규약을 정의한 추상 클래스
+      FileWriter
+      BufferdWriter
+
+Stream// Reader,Writer : 스트림은 바이트단위, 그외는 문자단위 
+기반스트림
+
+  - 직접 읽고 쓰는 스트림
+
+
+보조스트림
+  - 직접 읽고 쓰는 기능은 없음
+  - 기반 스트림에  기능을 추가함
+  - 기반스트림 + 보조스트림 + 보조스트림 (추가기능은 여러개 추가 가능)
+
+  - 생성자 매개변수
+    (InputStream, OutputStream, Reader,Writer )
+  - 기반 스트림이 매개변수로 들어가거나, 다른 보조 스트림도 매개변수로 들어갈 수 있다.
+
+  기반스트림 + 보조 스트림 + 보조 스트림 .... (기능 Up)
+
+  BufferedInputStream
+  BufferedOutputStream
+
+  BufferedReader
+  BufferedWriter
+
+표준 입출력
+  - 콘솔 화면에 입출력되는 콘솔 입출력.
+
+Scanner 클래스
+  생성자 매개변수
+  InputStream
+    - next자료형
+    - STring nextLine()
+
+  바이트 단위 스트림
+    InputStream
+      FileInputStream, DataInputStream, ObjectInputStream, BuffueredInputStream, ....    
+
+    OutputStream
+      FileOutputStream, DataOutputStream, ObjectOutputStream, BufferedOutputStream
+
+    리소스 -> 열어주고, -> 사용이 끝나면 -> 닫기
+    
+  문자 단위 스트림
+    Reader
+      FileReader - 기반 스트림
+      InputStreamReader - 보조 스트림(스트림 -> 문자)
+      BufferedReader - 보조 스트림
+
+    Writer
+      FileWriter - 기반 스트림
+      OutputStreamWriter - 보조스트림 (스트림 -> 문자)
+      BufferdWriter - 보조 스트림 
+
+보조 스트림
+  DataInputStream, DataOutputStream
+  파일에 자료형(원시언어 0/1) 자체로 저장하고 읽는 스트림
+
+  p547
+  readByte() / writeByte(int v)
+  readInt() / writeInt(int v)
+  readUTF() / writeUTF(String str)
+
+  ObjectInputStream, ObjectOutputStream - p550
+  인스턴스 상태 그대로 저장하고 읽어 올때
+    - 인스턴스는 입체적인 상태 (변수,메서드 ....) -> 파일로 바로 저장이 안된다. 네트워크상 바로 전달이 안된다.
+    - 전달이 가능한 상태? -> 입체적인 상태를 문자열 형태로 변환. (일렬로 나열한 상태) -> 직렬화
+    - 마커 인터페이스 (interface)
+
+  
