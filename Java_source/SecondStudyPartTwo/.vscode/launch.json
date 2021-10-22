@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch StringToken",
+      "request": "launch",
+      "mainClass": "stringToken.StringToken",
+      "projectName": "SecondStudyPartTwo"
+    },
+    {
+      "type": "java",
       "name": "Launch Ex2",
       "request": "launch",
       "mainClass": "chapter15InOutputStream.sub2.Ex2",
